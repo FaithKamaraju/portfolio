@@ -187,17 +187,36 @@ params:
       - job: "Data Scientist 1"
         company: "Ericsson India"
         companyUrl: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/india"
+        info:
+          enable: false
         date: "June 2022 - August 2023"
+        duration: "14 Months"
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Backend Developer - Contract"
+      - job: "Backend Developer (Contract)"
         company: "Techineur Solutions Pvt Ltd"
         companyUrl: "https://techineur.com"
-        date: "Dec 2021 - May 2022"
+        info:
+          enable: false
+        date: "December 2021 - May 2022"
+        duration: "5 Months"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Software Developer Intern"
+        company: "Ericsson India"
+        companyUrl: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/india"
+        info:
+          enable: false
+        date: "June 2021 - December 2021"
+        duration: "6 Months"
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
@@ -214,13 +233,13 @@ params:
         school:
           name: "University of Windsor, Windsor"
           url: "https://www.uwindsor.ca/engineering/mengprog"
-        date: "Sep 2023 - Dec 2024"
+        date: "September 2023 - December 2024"
 
       - title: "Bachelor of Engineering in Electronics and Communication"
         school:
           name: "BITS Pilani, Hyderabad Campus"
           url: "https://www.bits-pilani.ac.in/academics/integrated-first-degree/b-e-electronics-communication/"
-        date: "2018 - 2022"
+        date: "August 2018 - May 2022"
 
   # Achievements
   achievements:
