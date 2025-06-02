@@ -135,8 +135,8 @@ params:
     enable: true
     intro: "Hola! my name is"
     title: "Faith Kamaraju,"
-    subtitle: "And I build cool web apps that leverage Gen AI!"
-    content: "I'm a passionate AI/ML backend developer who loves to make web apps that solve real-world problems by leveraging Gen AI and statistical ML techniques."
+    subtitle: "And I build cool web apps and APIs that leverage Gen AI!"
+    content: "I'm a passionate backend developer who loves to make high impact Web-Apps and APIs that enables others to achieve success! Recently I have been loving integrating Gen AI solutions to provide even more impact."
     image: /images/female-hero.svg
     bottomImage:
       enable: true
@@ -165,63 +165,66 @@ params:
     title: "About Me"
     image: "/images/profile_pic.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      As a software engineer with hands-on experience across full-stack development but my real proficiency lies in the back end. I’m passionate about building scalable, efficient systems and intuitive web applications. I've worked with tools like React and FastAPI to make highly intuitive web applications that have enabled a lot of internal teams at Ericsson to achieve their goals faster!
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I love constantly learning new tech and making my life easier using my skills.
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
+        - "FastAPI"
+        - "PostgreSQL"
+        - "SQLAlchemy"
+        - "vLLM"
         - "React"
-        - "Node"
-        - "Express"
+        - "Mantine-UI"
+        - "Gin"
+        - "Go"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Data Scientist 1"
-        company: "Ericsson India"
+      - job: "Software Developer 1"
+        company: "Ericsson GAIA"
         companyUrl: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/india"
         info:
           enable: false
-        date: "June 2022 - August 2023"
-        duration: "14 Months"
+        date: "July 2022 - August 2023"
+        duration: "13 Months"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Part of a 4-member team tasked with implementing a duplicate telecom error logs fnder using a Retrieval and Re-ranker system.
+          - Owned and designed the web-app solution -- put forward the architecture for this project under the guidance of senior developers.
+          - Proposed a solution involving a FastAPI backend, a React frontend, an Elasticsearch DB behind a traefk R.Proxy/L.Balancer with all modules containerized individually.
+          - Setup CI/CD pipelines that automatically push a production build to Ericsson Azure servers.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      # - job: "Backend Developer (Contract)"
+      #   company: "Techineur Solutions Pvt Ltd"
+      #   companyUrl: "https://techineur.com"
+      #   info:
+      #     enable: false
+      #   date: "December 2021 - May 2022"
+      #   duration: "5 Months"
+      #   content: |
+      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-      - job: "Backend Developer (Contract)"
-        company: "Techineur Solutions Pvt Ltd"
-        companyUrl: "https://techineur.com"
-        info:
-          enable: false
-        date: "December 2021 - May 2022"
-        duration: "5 Months"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      #     - Lead backend developer for a product.
+      #     - Created a frontend design for a product.
 
       - job: "Software Developer Intern"
-        company: "Ericsson India"
+        company: "Ericsson GAIA"
         companyUrl: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/india"
         info:
           enable: false
         date: "June 2021 - December 2021"
         duration: "6 Months"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Part of a 6-member team tasked with implementing an Automated OpenAPI/Swagger 3 REST-API Testing Tool in python.
+          - Owned and developed an entire stage in the testing pipeline called the ”Mutated Error Tester” component (fnal stage).
+          - Implemented a Plotly-Dash webapp for a Proof-of-Concept prototype for shareholders to experiment with and give feedback. 
+          - Continuously collected feedback and implemented the changes throughout the 4-month project lifecycle.
 
   # Education
   education:
@@ -268,50 +271,49 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: News Aggregator with Bias Language Analysis
+        content: A news aggregator web-app that provides LLM powered bias language analysis for news articles from around the world!
         image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "FastAPI"
+          - "NextJS"
+          - "vLLM"
+          - "PostgreSQL"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/FaithKamaraju/News-Webservice-BiasLanguageAnalysis
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+      # - title: Image Converter
+      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      #   image: /images/projects/converter.jpg
+      #   featured:
+      #     name: Demo
+      #     link: https://django-converter.herokuapp.com
+      #   badges:
+      #     - "Django"
+      #     - "Bootstrap"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
