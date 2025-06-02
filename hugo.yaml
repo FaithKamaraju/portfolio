@@ -273,7 +273,7 @@ params:
     items:
       - title: News Aggregator with Bias Language Analysis
         content: A news aggregator web-app that provides LLM powered bias language analysis for news articles from around the world!
-        image: /images/projects/profile.png
+        image: /images/projects/newsapp.png
         # featured:
         #   name: Demo
         #   link: https://hugo-profile.netlify.app
